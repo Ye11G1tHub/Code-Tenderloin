@@ -1,0 +1,81 @@
+.container {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1px;
+    width: 50%;
+    height: max-content;
+}
+
+p, .item {
+    background-color: white;
+    color: black;
+    font-size: 50px;
+    padding: 1px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#redhor {
+    grid-column: 1 / 8;
+    background-color: red;
+}
+
+#redver {
+    grid-row: 2 / 8;
+    background-color: red;
+}
+
+#orangehor {
+    grid-column: 2 / 8;
+    background-color: orange;
+}
+
+#orangever {
+    grid-row: 3 / 8;
+    background-color: orange;
+}
+
+#yellowhor {
+    grid-column: 3 / 8;
+    background-color: yellow;
+}
+
+#yellowver {
+    grid-row: 4 / 8;
+    background-color: yellow;
+}
+
+#greenhor {
+    grid-column: 4 / 8;
+    background-color: green;
+}
+
+#greenver {
+    grid-row: 5 / 8;
+    background-color: green;
+}
+
+#bluehor {
+    grid-column: 5 / 8;
+    background-color: blue;
+}
+
+#bluever {
+    grid-row: 6 / 8;
+    background-color: blue;
+}
+
+#purplehor {
+    grid-column: 6 / 8;
+    background-color: purple;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#black {
+    background-color: black;
+    color: white;
+}
