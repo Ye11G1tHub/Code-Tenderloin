@@ -1,0 +1,202 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* adjust typography defaults */
+  body {
+    font-size: 100%;
+    line-height: 1.5;
+    font-family: "Helvetica", sans-serif;
+    font-weight: bold;
+    background-color: #BDE0FE;
+  }
+  
+  /* images and videos max out at full width */
+  img,
+  video {
+    height: auto;
+    max-width: 100%;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .wireframe {
+    display: flex;
+  }
+  
+  .wf1 {
+    margin: 20px auto;
+  }
+  
+  .wf2 {
+    margin: 20px auto;
+  }
+  
+  #Home-Page-img {
+    width: 725px;
+    height: 450px;
+  }
+  
+  #Sub-Page-img {
+    width: 453px;
+    height: 600px;
+  }
+  
+  /*----------------------------------------------------------------------------------------------Style Guide Typography Styles----------*/
+  /* typography styles */
+  /* h2, h3, h4, p {
+  } */
+  
+  h1,
+  .RBD-Color {
+    font-size: 40px;
+    color: #001F54;
+  }
+  
+  h2 {
+    font-size: 32px;
+  }
+  
+  h3 {
+    font-size: 26px;
+    color: #3A6EA5;
+  }
+  
+  /*h4 {
+    font-size: 18px;
+  }
+  
+  h5 {
+    font-size: 16px;
+  }
+  
+  h6 {
+    font-size: 12px;
+  } */
+  
+  p {
+    font-family: "Helvetica", sans-serif;
+    font-size: 18px;
+  }
+  
+  /*---------------------------------------------------------------------------------------------Style Guide Box Style-----------*/
+  /* box styles */
+  
+  .typography-boxes {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .typography-card {
+    display: inline-block;
+    width: 500px;
+    margin: 20px;
+    border: 1px solid rgba(100, 100, 100, 0.2);
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 1px 1px rgba(100, 100, 100, 0.2); /* offset-x | offset-y | blur-radius | spread-radius | color */
+  }
+  
+  .color-palette-boxes {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .color-card {
+    color: white;
+    width: 300px;
+    margin: 20px;
+    border: 1px solid rgba(100, 100, 100, 0.2);
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 1px 1px rgba(100, 100, 100, 0.2); /* offset-x | offset-y | blur-radius | spread-radius | color */
+  }
+  
+  .section-title {
+    margin-left: 20px;
+    margin-top: 50px;
+    border-bottom: 2px solid rgba(100, 100, 100, 0.2);
+  }
+  .title {
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  
+  /*---------------------------------------------------------------------------------------------Style Guide Color Styles-----------*/
+  /* color styles */
+  .Royal_Blue_Dark {
+    background-color: #001F54;
+  }
+  .Yale_Blue {
+    background-color: #004E98;
+  }
+  .Queen_Blue {
+    background-color: #3A6EA5;
+  }
+  .Uranian_Blue {
+    background-color: #BDE0FE;
+    color: Black;
+  }
+  .Lavender_Web {
+    background-color: #E1E5F2;
+    color: Black;
+  }
+  
+  /*-------------------------------------------------------------------------------------------Navigation Bar-------------*/
+  .nav-bar {
+    background-color: #E1E5F2; /*nav bar color*/
+    text-align: center; /*center text*/
+    font-size: 18px;
+    font-weight: bold;
+  }
+    
+  .nav-bar ul { /* stuff inside nav bar unordered list*/
+    display: flex; /* does dis: Displays an element as an inline-level flex container */
+    list-style: none; /* no type of list style*/
+    color: #3A6EA5; /* nav text color*/
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .nav-bar ul li { /* stuff inside nav bar unordered list, list item */
+    width: 235px; /* how far apart the words are*/
+    margin: 15px; /* how much "white" space around the text */
+    padding: 15px; /* how much "white" space around the text and the hover box size*/
+  }
+  
+  .nav-bar ul li a { /* for the nav bar unordered list, list item's anchors*/
+    text-decoration: none; /* no underline under link*/
+    color: #3A6EA5;
+  }
+  
+  .nav-bar ul li:hover { /* for the nav bar unordered list, list items hovering*/
+    background-color: white; /* makes the hovering background white*/
+    border-radius: 5px; /* controlls the roundness of the corner for the hover box*/
+  }
+  
+  @media (max-width: 900px) {
+    .nav-bar ul {
+      display: inline-block;
+      padding: 15px 1000px 15px 15px;
+      text-align: left;
+    }
+    .nav-bar ul li {
+      padding: 15px 100% 15px 15px;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .typography-boxes, .color-palette-boxes, .wireframe, .nav-bar ul {
+      display: block;
+      justify-content: space-between;
+    }
+  }

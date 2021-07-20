@@ -1,0 +1,284 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* adjust typography defaults */
+  body {
+    margin: 1rem;
+    font-size: 100%;
+    line-height: 1.5;
+    font-family: "Helvetica", sans-serif;
+    font-weight: bold;
+    background-color: #BDE0FE;
+  }
+  
+  /* images and videos max out at full width */
+  img,
+  video {
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /*-------------------------------------------------------------------------------------------Images-------------*/
+  #phytoplankton-img {
+    width: 300px;
+    height: 200px;
+  }
+  
+  #whaling-img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  #dolphin-img {
+    width: 285px;
+    height: 190px;
+  }
+  
+  #bluefin-img {
+     width: 290px;
+    height: 190px;
+  }
+  
+  #LeatherBack-img {
+    width: 290px;
+    height: 190px;
+  }
+  
+  #Flatback-img {
+    width: 285px;
+    height: 190px;
+  }
+  
+  #Shark-Fin_img {
+    width: 299px;
+    height: 200px;
+  }
+  
+  #Food-Chain_img {
+    width: 292px;
+    height: 200px;
+  }
+  
+  #Garbage-Patch-img {
+    width: 373px;
+    height: 310px;
+  }
+  
+  #Carbon-Cycle-img {
+    width: 356px;
+    height: 250px;
+  }
+  
+  #Fish-Farm-1-img { 
+    width: 301px;
+    height: 186px;
+  }
+  
+  #Fish-Farm-2-img { 
+    width: 279px;
+    height: 186px;
+  }
+  
+  #Oceana-img{ 
+    width: 511px;
+    height: 100px;
+  }
+  
+  #Subsidies-img {
+    width: 437px;
+    height: 270px;
+  }
+  
+  #Somalian-img {
+    width: 404px;
+    height: 270px;
+  }
+  
+  #Lowell-img {
+    width: 202px;
+    height: 190px;
+  }
+  
+  #Code-Tenderloin-img {
+    width: 312px;
+    height: 200px;
+  }
+  
+  .easter-egg {
+    width: 300px;
+    height: 150px;
+    opacity: 0%;
+  }
+  
+  .easter-egg:hover {
+    opacity: 50%;
+  }
+  
+  /*-------------------------------------------------------------------------------------------Navigation Bar-------------*/
+  .nav-bar {
+    background-color: #E1E5F2; /*nav bar color*/
+    text-align: center; /*center text*/
+    font-size: 18px;
+    font-weight: bold;
+  }
+    
+  .nav-bar ul { /* stuff inside nav bar unordered list*/
+    display: flex; /* does dis: Displays an element as an inline-level flex container */
+    list-style: none; /* no type of list style*/
+    color: #3A6EA5; /* nav text color*/
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  
+  
+  .nav-bar ul li { /* stuff inside nav bar unordered list, list item */
+    width: 235px; /* how far apart the words are*/
+    margin: 15px; /* how much "white" space around the text */
+    padding: 15px; /* how much "white" space around the text and the hover box size*/
+  }
+  
+  .nav-bar ul li a { /* for the nav bar unordered list, list item's anchors*/
+    text-decoration: none; /* no underline under link*/
+    color: #3A6EA5;
+  }
+  
+  .nav-bar ul li:hover { /* for the nav bar unordered list, list items hovering*/
+    background-color: white; /* makes the hovering background white*/
+    border-radius: 5px; /* controlls the roundness of the corner for the hover box*/
+  }
+  
+  @media (max-width: 900px) {
+    .nav-bar ul {
+      display: inline-block;
+      padding: 15px 1000px 15px 15px;
+    }
+    .nav-bar ul li {
+      padding: 15px 100% 15px 15px;
+    }
+  }
+  
+  /*----------------------------------------------------------------------------------------------Style Guide Typography Styles----------*/
+  /* typography styles */
+  h2, h3, h4, p {
+    margin: 3rem;
+  }
+  
+  h1,
+  .RBD-Color {
+    font-size: 40px;
+    color: #001F54;
+  }
+  
+  h2 {
+    font-size: 32px;
+  }
+  
+  h3 {
+    font-size: 26px;
+  }
+  
+  /*h4 {
+    font-size: 18px;
+  }
+  
+  h5 {
+    font-size: 16px;
+  }
+  
+  h6 {
+    font-size: 12px;
+  } */
+  
+  p {
+    font-family: "Helvetica", sans-serif;
+    font-size: 18px;
+    margin: -50px auto 50px 50px;
+  }
+  
+  /*---------------------------------------------------------------------------------------------Answer Boxes-----------*/
+  .interactive-column {
+    max-width: 1800px;
+    background-color: #BDE0FE;
+    margin: 40px auto 0 auto;
+    line-height: 1.65;
+    padding: 20px 50px;
+    display: flex;
+  }
+  
+  .direction {
+    margin: 0px 15px 0px 10px;
+    flex: 1;
+    order: 2;
+  }
+  
+  .answer-box-1 {
+    flex: 1.2;
+    order: 1;
+  }
+  
+  .answer-box-2 {
+    flex: 1.2;
+    order: 3;
+  }
+  
+  textarea {
+    width: 90%;
+    margin: auto;
+    font-family: "Helvetica", sans-serif;
+    font-size: 20px;
+  }
+  
+  /*---------------------------------------------------------------------------------------------Content Boxes-----------*/
+  .topic-box {
+    display: flex;
+    padding: -50px 0px -50px 0px;
+  }
+  
+  .para_title {
+    color: #3A6EA5;
+  }
+  
+  .paragraph {
+    padding: 20px;
+    flex: 2;
+  }
+  
+  .para-imgs {
+    flex: 1;
+    display: flex;
+  }
+  
+  .para-img-1{
+    padding: 100px 0px 0px 5px;
+    flex: 1;
+  }
+  
+  .para-img-2 {
+    padding: 100px 0px;
+    flex: 1;
+  }
+  
+  @media (max-width: 900px) {
+    .topic-box, .interactive-column{
+      display: block;
+    }
+  }
